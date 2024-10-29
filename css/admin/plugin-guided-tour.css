@@ -1,0 +1,7 @@
+.ass-tour-buttons {
+    display: block;
+    text-align: right;
+}
+.ass-tour-buttons > .button {
+    margin-left: 10px;
+}

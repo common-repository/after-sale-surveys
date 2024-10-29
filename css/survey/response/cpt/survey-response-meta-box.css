@@ -1,0 +1,40 @@
+#survey-response-data .inside {
+    padding: 0 !important;
+}
+#survey-response-data-header {
+    padding-left: 12px;
+    padding-right: 12px;
+    border-bottom: 1px solid #EEEEEE;
+}
+#survey-responses {
+    padding: 12px;
+}
+#survey-responses h1,
+#survey-responses h2,
+#survey-responses h3 {
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 600;
+}
+#survey-responses .response-item {
+    margin-bottom: 10px;
+}
+#survey-responses .response-item .question {
+    margin: 0 0 2px 0;
+    font-weight: 600;
+}
+#survey-responses .response-item .question .label {
+    font-weight: 600;
+    display: inline-block;
+    width: 70px;
+    color: blue;
+}
+#survey-responses .response-item .answer {
+    margin: 0;
+}
+#survey-responses .response-item .answer .label {
+    font-weight: 600;
+    display: inline-block;
+    width: 70px;
+    color: green;
+}

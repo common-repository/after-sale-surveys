@@ -1,0 +1,390 @@
+/*---------------------*/
+/*----- Survey CTA ----*/
+/*---------------------*/
+#survey-cta-meta-box .field-set {
+    display: block;
+    margin-bottom: 10px;
+}
+#survey-cta-meta-box .field-set label {
+    display: block;
+    font-weight: 600;
+}
+#survey-cta-meta-box .field-set input[ type="text" ] {
+    display: block;
+    width: 100%;
+}
+#survey-cta-meta-box .field-set.button-field-set {
+    margin-bottom: 0;
+}
+#survey-cta-meta-box .field-set.button-field-set .spinner {
+    float: none;
+    margin-right: 4px;
+    margin-top: 5px;
+    display: none;
+    visibility: hidden;
+}
+
+
+
+
+/*---------------------------*/
+/*----- Survey Thank You ----*/
+/*---------------------------*/
+#survey-thankyou-meta-box .field-set {
+    display: block;
+    margin-bottom: 10px;
+}
+#survey-thankyou-meta-box .field-set label {
+    display: block;
+    font-weight: 600;
+}
+#survey-thankyou-meta-box .field-set input[ type="text" ] {
+    display: block;
+    width: 100%;
+}
+#survey-thankyou-meta-box .field-set.button-field-set {
+    margin-bottom: 0;
+}
+#survey-thankyou-meta-box .field-set.button-field-set .spinner {
+    float: none;
+    margin-right: 4px;
+    margin-top: 5px;
+    display: none;
+    visibility: hidden;
+}
+
+
+
+
+/*---------------------------*/
+/*----- Survey Questions ----*/
+/*---------------------------*/
+#survey-question-meta-box .survey-question-controls {
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#survey-question-meta-box.read-only .survey-question-controls {
+    display: none;
+}
+
+/*----- DataTables -----*/
+#survey-questions-table_processing {
+    color: #000;
+    opacity: 1;
+    z-index: 999;
+    background: none;
+    font-weight: 600;
+}
+#survey-questions-table_length {
+    margin-bottom: 15px;
+}
+#survey-questions-table {
+    margin-bottom: 15px;
+}
+#survey-questions-table thead .order-number,
+#survey-questions-table tfoot .order-number,
+#survey-questions-table tbody .order-number {
+    width: 6% !important;
+}
+#survey-questions-table thead tr th,
+#survey-questions-table tfoot tr th {
+    padding: 10px 18px 10px 10px;
+}
+#survey-questions-table thead .column-controls,
+#survey-questions-table tfoot .column-controls,
+#survey-questions-table tbody .column-controls {
+    width: 6% !important;
+    text-align: right;
+}
+#survey-question-meta-box.read-only #survey-questions-table tbody .column-controls .delete-control {
+    display: none;
+}
+#survey-questions-table tbody .column-controls .edit-control {
+    color: green;
+}
+#survey-questions-table tbody .column-controls .delete-control {
+    color: red;
+}
+#survey-questions-table tbody .column-controls .control {
+    visibility: hidden;
+    cursor: pointer;
+}
+#survey-questions-table tbody tr:hover {
+    background-color: #e3f2f8;
+}
+#survey-questions-table tbody tr:hover .column-controls .control {
+    visibility: visible;
+}
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 1px solid #E5E5E5;
+}
+table.dataTable tfoot th, table.dataTable tfoot td {
+    border-top: 1px solid #E5E5E5;
+}
+
+/*----- Table Retrieving Data Mode -----*/
+#survey-questions-table.retrieving-data-mode tbody tr .column-controls .control {
+    visibility: hidden !important;
+}
+#survey-questions-table.retrieving-data-mode tbody tr {
+    opacity: .5;
+}
+#survey-questions-table.retrieving-data-mode tbody tr.odd:hover {
+    background-color: #f9f9f9;
+}
+#survey-questions-table.retrieving-data-mode tbody tr.even:hover {
+    background-color: #ffffff;
+}
+
+/*----- Table Processing Mode -----*/
+#survey-questions-table.processing-mode tbody tr .column-controls .control {
+    visibility: hidden !important;
+    display: none !important;
+}
+#survey-questions-table.processing-mode tbody tr.odd:hover {
+    background-color: #f9f9f9;
+}
+#survey-questions-table.processing-mode tbody tr.even:hover {
+    background-color: #ffffff;
+}
+#survey-questions-table tbody tr.processing-row,
+#survey-questions-table.processing-mode tbody tr.processing-row {
+    background-color: #FFECCC !important;
+}
+#survey-questions-table.processing-mode tbody tr.processing-row .column-controls .spinner {
+    display: inline-block;
+    visibility: visible;
+    float: none;
+    margin: 0;
+}
+
+/*------------------------------------------*/
+/*----- Save Survey Question Form Popup ----*/
+/*------------------------------------------*/
+
+/*----- Magnific Pop Up -----*/
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#save-question-popup-form #pop-up-processing-markup {
+    padding: 15px;
+    display: none;
+}
+#save-question-popup-form #pop-up-processing-markup .processing-message {
+    font-size: 16px;
+}
+#save-question-popup-form #pop-up-processing-markup .spinner {
+    position: relative;
+    display: inline-block;
+    visibility: visible;
+    float: none;
+    margin-top: 0;
+    top: -1px;
+}
+#save-question-popup-form {
+    padding: 0;
+}
+#save-question-popup-form .mfp-close {
+    color: #fff;
+}
+#save-question-popup-form header {
+    padding: 10px 10px 14px 10px;
+    background-color: #0085BA;
+    border-bottom: 1px solid #006799;
+}
+#save-question-popup-form header h2 {
+    color: #fff;
+    margin: 0;
+}
+#save-question-popup-form.read-only #pop-up-form-markup footer {
+    display: none;
+}
+#save-question-popup-form .form {
+    padding: 20px 10px;
+}
+#save-question-popup-form .form .field-set {
+    margin-bottom: 10px;
+}
+#save-question-popup-form .form .field-set label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+#save-question-popup-form .form .field-set input[ type="text" ],
+#save-question-popup-form .form .field-set select {
+    display: block;
+    width: 100%;
+}
+#save-question-popup-form .form .field-set input[ type='text' ].err,
+#save-question-popup-form .form .field-set input[ type='email' ].err,
+#save-question-popup-form .form .field-set input[ type='phone' ].err,
+#save-question-popup-form .form .field-set input[ type='number' ].err,
+textarea.err,
+select.err {
+    border: 1px solid #FFA1A1;
+    background-color: #FFE2E2;
+}
+#save-question-popup-form .question-popup-notice {
+    padding: 10px;
+    display: block;
+}
+#save-question-popup-form .question-popup-notice p.desc {
+    border-left: 4px solid #DC3232;
+    display: block;
+    border-top: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 8px 10px 8px 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+/*----------------------------*/
+/*----- Question Choices -----*/
+/*----------------------------*/
+#save-question-popup-form.read-only #choices-section #choices-controls {
+    display: none;
+}
+#choices-section {
+    padding: 15px 10px;
+    border-top: 1px solid #DDDDDD;
+    display: none;
+}
+#choices-section header {
+    background-color: transparent;
+    border-bottom: none;
+    padding: 0;
+    margin-bottom: 15px;
+    text-align: right;
+}
+#choices-section header label {
+    display: block;
+    text-align: left;
+    font-weight: 600;
+}
+#choices-section header #choice-text {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+/*----- Choices Controls -----*/
+#choices-controls #edit-choice-btn,
+#choices-controls #cancel-edit-choice-btn {
+    display: none;
+}
+
+/*----- Choices List -----*/
+#choices-section #choices-list-heading {
+    margin: 0 0 5px 0;
+}
+#choices-section #choices-list-container {
+    max-height: 108px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+}
+#choices-list {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#choices-list li {
+    display: block;
+    margin: 0;
+    padding: 8px;
+}
+#choices-list li {
+    background-color: #f9f9f9;
+}
+#choices-list li:nth-child( 2n+1 ) {
+    background-color: #ffffff;
+}
+#choices-list .drag-handle {
+    display: inline-block;
+    width: 6%;
+}
+#choices-list .drag-handle .dashicons-sort {
+    cursor: move;
+}
+#choices-list .choice {
+    display: inline-block;
+    width: 83%;
+}
+#save-question-popup-form.read-only #choices-list .controls {
+    display: none;
+}
+#choices-list .controls {
+    display: inline-block;
+    width: 11%;
+}
+#choices-list .controls .control {
+    cursor: pointer;
+    visibility: hidden;
+}
+#choices-list .controls .edit-control {
+    color: green;
+}
+#choices-list .controls .delete-control {
+    color: red;
+}
+#choices-list li:hover {
+    background-color: #e3f2f8;
+}
+#choices-list li:hover .controls .control {
+    visibility: visible;
+}
+#choices-list li.empty-choices:hover,
+#choices-list li.retrieving-choices:hover {
+    background-color: #f9f9f9;
+}
+#choices-list li.empty-choices p,
+#choices-list li.retrieving-choices p {
+    margin: 0;
+}
+#choices-list.processing li:hover {
+    background-color: #f9f9f9;
+}
+#choices-list.processing li:nth-child( 2n+1 ):hover {
+    background-color: #ffffff;
+}
+#choices-list.processing li:hover .controls .control {
+    visibility: hidden;
+}
+#choices-list li.processing {
+    background-color: #FFECCC !important;
+}
+
+#save-question-popup-form footer {
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #DDDDDD;
+    text-align: right;
+}
+#save-question-popup-form footer .spinner {
+    float: none;
+    display: inline-block;
+    visibility: hidden;
+}
+
+
+/*--------------------------------------*/
+/*----- After Sale Surveys Upgrade -----*/
+/*--------------------------------------*/
+
+#after-sale-surveys-upgrade .inside {
+    padding: 0;
+    margin: 0;
+}
+#after-sale-surveys-upgrade .inside img {
+    max-width: 100%;
+    display: inline-block;
+}

@@ -1,0 +1,107 @@
+/*----- Magnific Pop Up -----*/
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 40px;
+    width: auto;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* This causes cropping during pop up animation */
+/*.mfp-content {
+    max-height: 90%;
+    overflow-y: auto;
+}*/
+
+/*----- General -----*/
+
+.after-sale-survey-cta .btn,
+.after-sale-survey .btn,
+.after-sale-survey-thank-you .btn {
+    background: #2ea85a;
+    border: 1px solid #2ea85a;
+    -webkit-box-shadow: 0 3px 0 #278f4d;
+    box-shadow: 0 3px 0 #278f4d;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.after-sale-survey-cta .btn:hover,
+.after-sale-survey .btn:hover,
+.after-sale-survey-thank-you .btn:hover {
+    background: #278f4d;
+    border: 1px solid #278f4d;
+    -webkit-box-shadow: 0 3px 0 #20753f;
+    box-shadow: 0 3px 0 #20753f;
+    color: #fff;
+}
+
+.after-sale-survey-cta .btn[ disabled="disabled" ],
+.after-sale-survey .btn[ disabled="disabled" ],
+.after-sale-survey-thank-you .btn[ disabled="disabled" ] {
+    color: #34c268 !important;
+    background: #278f4d !important;
+    border: 1px solid #278f4d !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    cursor: default;
+}
+
+.after-sale-survey-cta .cta-controls {
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*----- Survey Form -----*/
+
+.after-sale-survey {
+    display: none;
+}
+
+.after-sale-survey .survey-submission-controls {
+    text-align: right;
+}
+
+.after-sale-survey .survey-submission-controls .spinner {
+    background: url( '../../../images/spinner.gif' ) no-repeat;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+    display: inline-block;
+    visibility: visible;
+    float: none;
+    vertical-align: middle;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0;
+}
+
+.after-sale-survey .survey-question {
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    background: #f5f5f5;
+}
+
+.after-sale-survey .survey-question .question-text-container {
+    margin-bottom: 5px;
+}
+
+.after-sale-survey .survey-question.err {
+    border: 1px solid #FFA1A1;
+    background-color: #FFE2E2;
+}
+
+/*----- Survey Thank You -----*/
+
+.after-sale-survey-thank-you {
+    display: none;
+}
+
+.thank-you-footer {
+    text-align: right;
+}

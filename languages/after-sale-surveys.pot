@@ -1,0 +1,709 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: After Sale Surveys\n"
+"POT-Creation-Date: 2016-10-11 10:47+0800\n"
+"PO-Revision-Date: 2016-03-21 08:27+0800\n"
+"Last-Translator: \n"
+"Language-Team: Rymera Web Co <support@marketingsuiteplugin.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js/lib\n"
+"X-Poedit-SearchPathExcluded-1: .hg\n"
+"X-Poedit-SearchPathExcluded-2: .idea\n"
+
+#: after-sale-surveys.php:184 after-sale-surveys.php:196
+#: models/class-ass-admin-status.php:54 models/class-ass-admin-status.php:66
+#: models/class-ass-ajax-interfaces.php:64
+#: models/class-ass-ajax-interfaces.php:76 models/class-ass-bootstrap.php:87
+#: models/class-ass-bootstrap.php:99 models/class-ass-constants.php:395
+#: models/class-ass-constants.php:407 models/class-ass-i18n.php:55
+#: models/class-ass-i18n.php:67 models/class-ass-script-loader.php:58
+#: models/class-ass-script-loader.php:70 models/survey/class-ass-survey.php:55
+#: models/survey/class-ass-survey.php:67
+#: models/survey/cpt/class-ass-survey-cpt.php:55
+#: models/survey/cpt/class-ass-survey-cpt.php:67
+#: models/survey/report/class-ass-survey-report.php:55
+#: models/survey/report/class-ass-survey-report.php:67
+#: models/survey/response/class-ass-survey-response-cpt.php:55
+#: models/survey/response/class-ass-survey-response-cpt.php:67
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: after-sale-surveys.php:269
+msgid "Click here to install from WordPress.org repo &rarr;"
+msgstr ""
+
+#: after-sale-surveys.php:271
+msgid "Activate this plugin"
+msgstr ""
+
+#: after-sale-surveys.php:271
+msgid "Click here to activate &rarr;"
+msgstr ""
+
+#: after-sale-surveys.php:275
+msgid ""
+"<b>After Sale Surveys</b> plugin missing dependency.<br/><br/>Please ensure "
+"you have the <a href=\"http://wordpress.org/plugins/woocommerce/\" target="
+"\"_blank\">WooCommerce</a> plugin installed and activated.<br/>"
+msgstr ""
+
+#: models/class-ass-ajax-interfaces.php:133
+#: models/class-ass-ajax-interfaces.php:176
+#: models/class-ass-ajax-interfaces.php:219
+msgid "Security Check Failed"
+msgstr ""
+
+#: models/class-ass-ajax-interfaces.php:161
+#: models/class-ass-ajax-interfaces.php:204
+#: models/class-ass-ajax-interfaces.php:248
+msgid "Invalid AJAX Call"
+msgstr ""
+
+#: models/class-ass-bootstrap.php:336
+msgid "Settings"
+msgstr ""
+
+#: models/class-ass-constants.php:444
+msgid "Survey Questions"
+msgstr ""
+
+#: models/class-ass-constants.php:451
+msgid "Survey CTA"
+msgstr ""
+
+#: models/class-ass-constants.php:458
+msgid "Survey Thank You Message"
+msgstr ""
+
+#: models/class-ass-constants.php:465
+msgid "Premium Add-on"
+msgstr ""
+
+#: models/class-ass-constants.php:474
+msgid "Multiple Choice Single Answer"
+msgstr ""
+
+#: models/class-ass-constants.php:482
+msgid "Order"
+msgstr ""
+
+#: models/class-ass-constants.php:483
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:30
+msgid "Question"
+msgstr ""
+
+#: models/class-ass-constants.php:484 models/class-ass-script-loader.php:169
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:35
+msgid "Question Type"
+msgstr ""
+
+#: models/class-ass-helper.php:368
+msgid "Invalid <b>From Date</b> field value"
+msgstr ""
+
+#: models/class-ass-helper.php:380
+msgid "Invalid <b>To Date</b> field value"
+msgstr ""
+
+#: models/class-ass-script-loader.php:143
+msgid "Survey CTA Title Empty"
+msgstr ""
+
+#: models/class-ass-script-loader.php:144
+msgid "Survey CTA Content Empty"
+msgstr ""
+
+#: models/class-ass-script-loader.php:145
+msgid "Please Fill Survey CTA Form Properly"
+msgstr ""
+
+#: models/class-ass-script-loader.php:146
+msgid "Successfully Saved Survey CTA Data"
+msgstr ""
+
+#: models/class-ass-script-loader.php:147
+msgid "Failed To Saved Survey CTA Data"
+msgstr ""
+
+#: models/class-ass-script-loader.php:151
+msgid "Survey Thank You Title Empty"
+msgstr ""
+
+#: models/class-ass-script-loader.php:152
+msgid "Survey Thank You Content Empty"
+msgstr ""
+
+#: models/class-ass-script-loader.php:153
+msgid "Please Fill Survey Thank You Form Properly"
+msgstr ""
+
+#: models/class-ass-script-loader.php:154
+msgid "Successfully Saved Survey Thank You Data"
+msgstr ""
+
+#: models/class-ass-script-loader.php:155
+msgid "Failed To Saved Survey Thank You Data"
+msgstr ""
+
+#: models/class-ass-script-loader.php:159
+msgid "No survey questions"
+msgstr ""
+
+#: models/class-ass-script-loader.php:163
+msgid "No Choices Available"
+msgstr ""
+
+#: models/class-ass-script-loader.php:164
+msgid "Please Wait. Retrieving Choices..."
+msgstr ""
+
+#: models/class-ass-script-loader.php:165
+msgid "Please wait. Retrieving question data..."
+msgstr ""
+
+#: models/class-ass-script-loader.php:166
+msgid "Edit Question"
+msgstr ""
+
+#: models/class-ass-script-loader.php:167
+msgid "Order Number"
+msgstr ""
+
+#: models/class-ass-script-loader.php:168
+msgid "Question Text"
+msgstr ""
+
+#: models/class-ass-script-loader.php:170
+msgid "No Multiple Choices"
+msgstr ""
+
+#: models/class-ass-script-loader.php:171
+msgid "Are you sure to delete this question?"
+msgstr ""
+
+#: models/class-ass-script-loader.php:172
+msgid "Question successfully deleted"
+msgstr ""
+
+#: models/class-ass-script-loader.php:173
+msgid "Please add choice text"
+msgstr ""
+
+#: models/class-ass-script-loader.php:174
+msgid "Add Question"
+msgstr ""
+
+#: models/class-ass-script-loader.php:175
+msgid "Some fields are not field up properly"
+msgstr ""
+
+#: models/class-ass-script-loader.php:176
+msgid "New question successfully added"
+msgstr ""
+
+#: models/class-ass-script-loader.php:177
+msgid "Failed to add new question"
+msgstr ""
+
+#: models/class-ass-script-loader.php:178
+msgid "Question successfully edited"
+msgstr ""
+
+#: models/class-ass-script-loader.php:179
+msgid "Cannot edit question"
+msgstr ""
+
+#: models/class-ass-script-loader.php:201
+msgid "Please wait. Generating reports..."
+msgstr ""
+
+#: models/class-ass-script-loader.php:202
+#: views/survey/report/survey-general-report.php:80
+#: views/survey/report/survey-general-report.php:84
+msgid "&larr; Choose a survey to view stats"
+msgstr ""
+
+#: models/class-ass-script-loader.php:203
+msgid "Please select a survey"
+msgstr ""
+
+#: models/class-ass-script-loader.php:204
+msgid "Survey:"
+msgstr ""
+
+#: models/class-ass-script-loader.php:205
+msgid "Order No"
+msgstr ""
+
+#: models/class-ass-script-loader.php:206
+msgid "Date"
+msgstr ""
+
+#: models/class-ass-script-loader.php:207
+msgid "User"
+msgstr ""
+
+#: models/class-ass-script-loader.php:208
+msgid "Response Details"
+msgstr ""
+
+#: models/class-ass-script-loader.php:209
+msgid "Details"
+msgstr ""
+
+#: models/class-ass-script-loader.php:210
+msgid "Total Respones:"
+msgstr ""
+
+#: models/class-ass-script-loader.php:263
+msgid "Some fields are not filled properly"
+msgstr ""
+
+#: models/class-ass-script-loader.php:264
+msgid "Survey response successfully save"
+msgstr ""
+
+#: models/class-ass-script-loader.php:265
+msgid "Failed to save survey response"
+msgstr ""
+
+#: models/class-ass-settings.php:36
+#: models/survey/cpt/class-ass-survey-cpt.php:112
+#: models/survey/cpt/class-ass-survey-cpt.php:116
+#: models/survey/cpt/class-ass-survey-cpt.php:128
+msgid "After Sale Surveys"
+msgstr ""
+
+#: models/class-ass-settings.php:61
+#: models/survey/report/class-ass-survey-report.php:116
+msgid "General"
+msgstr ""
+
+#: models/class-ass-settings.php:62
+msgid "Help"
+msgstr ""
+
+#: models/class-ass-settings.php:161
+msgid "General Options"
+msgstr ""
+
+#: models/class-ass-settings.php:196
+msgid "Help Options"
+msgstr ""
+
+#: models/class-ass-settings.php:210
+msgid "Clean up plugin options on un-installation"
+msgstr ""
+
+#: models/class-ass-settings.php:212
+msgid "If checked, removes all plugin options when this plugin is uninstalled."
+msgstr ""
+
+#: models/class-ass-settings.php:246
+msgid "Knowledge Base"
+msgstr ""
+
+#: models/class-ass-settings.php:249
+#, php-format
+msgid ""
+"Looking for documentation? Please see our growing <a href=\"%1$s\" target="
+"\"_blank\">Knowledge Base</a>"
+msgstr ""
+
+#: models/class-ass-settings.php:268
+msgid "After Sales Surveys Premium"
+msgstr ""
+
+#: models/survey/class-ass-survey.php:185
+msgid "This survey has no registered questions"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:113
+#: models/survey/cpt/class-ass-survey-cpt.php:114
+msgid "After Sale Survey"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:115
+msgid "Parent After Sale Survey"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:117
+msgid "View After Sale Survey"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:118
+msgid "Add After Sale Survey"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:119
+msgid "New After Sale Survey"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:120
+msgid "Edit After Sale Survey"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:121
+msgid "Update After Sale Survey"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:122
+msgid "Search After Sale Surveys"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:123
+msgid "No After Sale Survey found"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:124
+msgid "No After Sale Surveys found in Trash"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:129
+msgid "After Sale Survey Information Pages"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:235
+msgid ""
+"<b>Note:</b> You cannot add or edit questions on this survey because it "
+"already has responses.<br/>You can either delete all responses for this "
+"survey so you can edit it or create a new survey with your desired changes."
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:364
+msgid "Invalid Survey CTA Data"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:410
+msgid "Invalid Survey Thank You Data"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:527
+#: models/survey/cpt/class-ass-survey-cpt.php:655
+msgid "Specified question does not exist"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:599
+msgid "Question page number does not exist"
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:707
+msgid ""
+"You cannot add or edit questions on this survey because it already has "
+"responses."
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:708
+msgid ""
+"You can either delete all responses for this survey so you can edit it or "
+"create a new survey with your desired changes."
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:834
+msgid ""
+"You can not delete questions for this survey because it already have "
+"responses."
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:835
+msgid ""
+"You can either delete all responses for this survey so you can edit it or "
+"Just create a new survey with your desired changes."
+msgstr ""
+
+#: models/survey/cpt/class-ass-survey-cpt.php:852
+msgid "Specified question to be removed does not exist"
+msgstr ""
+
+#: models/survey/report/class-ass-survey-report.php:126
+#: models/survey/response/class-ass-survey-response-cpt.php:112
+#: models/survey/response/class-ass-survey-response-cpt.php:116
+#: models/survey/response/class-ass-survey-response-cpt.php:128
+msgid "Survey Responses"
+msgstr ""
+
+#: models/survey/report/class-ass-survey-report.php:321
+#: models/survey/report/class-ass-survey-report.php:493
+msgid "Specified survey does not exist"
+msgstr ""
+
+#: models/survey/report/class-ass-survey-report.php:328
+#: models/survey/report/class-ass-survey-report.php:500
+msgid "Specified survey id does not represent a survey post type"
+msgstr ""
+
+#: models/survey/report/class-ass-survey-report.php:343
+msgid "There are errors on the survey report filters"
+msgstr ""
+
+#: models/survey/report/class-ass-survey-report.php:359
+msgid "Specified survey does not have any questions"
+msgstr ""
+
+#: models/survey/report/class-ass-survey-report.php:368
+msgid "No survey data for the specified filter/s"
+msgstr ""
+
+#: models/survey/report/class-ass-survey-report.php:375
+#: models/survey/report/class-ass-survey-report.php:513
+msgid "Specified survey does not have any responses"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:113
+#: models/survey/response/class-ass-survey-response-cpt.php:114
+msgid "Survey Response"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:115
+msgid "Parent Survey Response"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:117
+msgid "View Survey Response"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:118
+msgid "Add Survey Response"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:119
+msgid "New Survey Response"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:120
+msgid "Edit Survey Response"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:121
+msgid "Update Survey Response"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:122
+msgid "Search Survey Responses"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:123
+msgid "No Survey Response found"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:124
+msgid "No Survey Responses found in Trash"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:129
+msgid "Survey Response Information Pages"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:172
+msgid "Survey Respondent Data"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:182
+msgid "Survey Response Data"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:270
+#, php-format
+msgid "Survey ID: %1$s"
+msgstr ""
+
+#: models/survey/response/class-ass-survey-response-cpt.php:301
+#, php-format
+msgid "Response ID: %1$s"
+msgstr ""
+
+#: templates/question-types/multiple-choice-single-answer.php:29
+msgid "This question has no choices."
+msgstr ""
+
+#: templates/survey/survey-submission-controls.php:27
+msgid "Submit Survey"
+msgstr ""
+
+#: views/admin-status/template-status/template-status.php:6
+msgid "After Sale Survey Templates"
+msgstr ""
+
+#: views/admin-status/template-status/template-status.php:7
+msgid ""
+"This section shows any files that are overriding the default After Sale "
+"Survey template pages."
+msgstr ""
+
+#: views/admin-status/template-status/template-status.php:52
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: views/admin-status/template-status/template-status.php:68
+#: views/admin-status/template-status/template-status.php:78
+msgid "Overrides"
+msgstr ""
+
+#: views/admin-status/template-status/template-status.php:91
+msgid "Learn how to update outdated templates"
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:25
+msgid "Sort Order"
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:37
+msgid "-- Select Question Type --"
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:46
+msgid "Multiple Choice Multiple Answers (PREMIUM)"
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:47
+msgid "Single Line Text (PREMIUM)"
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:48
+msgid "Paragraph Text (PREMIUM)"
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:49
+msgid "Dropdown Single Answer (PREMIUM)"
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:66
+msgid "+ Add choice"
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:68
+msgid "Edit choice"
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:69
+msgid "Cancel"
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:85
+#: views/survey/cpt/survey-questions-meta-box.php:13
+msgid ""
+"<b>Note:</b> You cannot add or edit questions on this survey because it "
+"already has responses."
+msgstr ""
+
+#: views/survey/cpt/popup/save-survey-question-popup-form.php:92
+msgid "Save Question"
+msgstr ""
+
+#: views/survey/cpt/survey-questions-meta-box.php:20
+msgid "+ Add Question"
+msgstr ""
+
+#: views/survey/cpt/view-ass-upgrade-meta-box.php:3
+msgid "After Sale Surveys Premium"
+msgstr ""
+
+#: views/survey/cpt/view-survey-cta-meta-box.php:10
+msgid "Popup Call To Action"
+msgstr ""
+
+#: views/survey/cpt/view-survey-cta-meta-box.php:12
+msgid ""
+"This section lets you configure a short message intended to entice customers "
+"into filling in your survey. We find that short, snappy and to the point "
+"messages work well here and will result in the greatest number of customers "
+"filling in your survey."
+msgstr ""
+
+#: views/survey/cpt/view-survey-cta-meta-box.php:15
+#: views/survey/cpt/view-survey-thank-you-message-meta-box.php:15
+msgid "Title"
+msgstr ""
+
+#: views/survey/cpt/view-survey-cta-meta-box.php:21
+#: views/survey/cpt/view-survey-thank-you-message-meta-box.php:21
+msgid "Content"
+msgstr ""
+
+#: views/survey/cpt/view-survey-cta-meta-box.php:27
+#: views/survey/cpt/view-survey-thank-you-message-meta-box.php:27
+msgid "Save"
+msgstr ""
+
+#: views/survey/cpt/view-survey-thank-you-message-meta-box.php:10
+msgid "Thank You Message"
+msgstr ""
+
+#: views/survey/cpt/view-survey-thank-you-message-meta-box.php:12
+msgid ""
+"The thank you message is shown to customers after they successfully fill in "
+"the survey. Thank them for their participation and if you like you can even "
+"add little extras such as a coupon code for their next order."
+msgstr ""
+
+#: views/survey/cta/survey-popup-cta.php:25
+msgid "Sure!"
+msgstr ""
+
+#: views/survey/report/survey-general-report.php:18
+msgid "Survey"
+msgstr ""
+
+#: views/survey/report/survey-general-report.php:21
+msgid "Choose a survey..."
+msgstr ""
+
+#: views/survey/report/survey-general-report.php:38
+msgid "Date Range"
+msgstr ""
+
+#: views/survey/report/survey-general-report.php:41
+msgid "From"
+msgstr ""
+
+#: views/survey/report/survey-general-report.php:43
+msgid "To"
+msgstr ""
+
+#: views/survey/report/survey-general-report.php:56
+msgid "Generate Report"
+msgstr ""
+
+#: views/survey/report/survey-general-report.php:72
+msgid "Responses"
+msgstr ""
+
+#: views/survey/report/survey-general-report.php:73
+msgid "Participants"
+msgstr ""
+
+#: views/survey/response/cpt/survey-response-data-meta-box.php:18
+msgid "Survey ID"
+msgstr ""
+
+#: views/survey/response/cpt/survey-response-data-meta-box.php:19
+msgid "Survey Title"
+msgstr ""
+
+#: views/survey/response/cpt/survey-response-data-meta-box.php:26
+msgid "Response Data"
+msgstr ""
+
+#: views/survey/response/cpt/survey-response-data-meta-box.php:35
+msgid "Question:"
+msgstr ""
+
+#: views/survey/response/cpt/survey-response-data-meta-box.php:36
+msgid "Answer:"
+msgstr ""
+
+#: views/survey/thank-you/survey-thank-you.php:21
+msgid "Close"
+msgstr ""

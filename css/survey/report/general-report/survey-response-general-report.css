@@ -1,0 +1,71 @@
+/*----- Report Filters -----*/
+#report-filters .report-filter {
+    margin-bottom: 15px;
+}
+#report-filters .report-filter label {
+    display: block;
+    width: 100%;
+}
+#report-filters .report-filter #as-survey {
+    display: block;
+    width: 100%;
+}
+#report-filters .report-filter label {
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+#report-filters .report-filter #from-date,
+#report-filters .report-filter #to-date {
+    width: 100%;
+}
+#report-filters .report-filter #from-date {
+    margin-bottom: 10px;
+}
+
+/*----- Report Controls -----*/
+#report-filter-controls {
+    margin-bottom: 15px;
+}
+#report-filter-controls .spinner {
+    float: none;
+}
+
+/*----- Reports Area -----*/
+#report-main #report-data .ui-tabs-nav {
+    background: none;
+    overflow: hidden;
+    border: 0;
+    height: 35px;
+}
+#report-main #report-data .ui-state-default,
+#report-main #report-data .ui-state-default:hover {
+    background: #F1F1F1;
+}
+#report-main #report-data .ui-state-active {
+    background-color: #fff;
+}
+#report-main .survey-title {
+    padding: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+#report-main .total-responses {
+    font-size: 16px;
+}
+#report-main #report-data {
+    border-color: #dfdfdf;
+}
+
+/*----- Participants Table Report -----*/
+#participants-container #survey-response-table-report thead tr th {
+    font-weight: 600;
+    color: #555555;
+}
+#participants-container #survey-response-table-report tbody tr td a {
+    color: #008aba;
+    cursor: pointer;
+}
+
+#participants-container #survey-response-table-report {
+    clear: none;
+}
